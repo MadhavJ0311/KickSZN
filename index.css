@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    max-width: 1600px;
+    font-family: "Lucida Console", monospace;
+}
+
+.hero {
+    position: relative;
+    display: inline-block;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Lucida Console", monospace;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero .btn-hero{
+    position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero .btn-hero:hover{
+  background-color: #CD5C5C;
+}
+
+.products{
+    color: #b2222b;
+    font-family: "Lucida Console", monospace;
+    text-align: center
+}
+
+td{
+  padding: 15px;
+}
+
+table a{
+  text-decoration: none;
+  color: black;
+}
+
+button a{
+  text-decoration: none;
+  color: black;
+  font-family: "Lucida Console", monospace;
+}
+
+.about-us{
+    color: #ffffff;
+    background-color: #b2222b;
+    font-family: "Lucida Console", monospace;
+    text-align: center
+}
+
+.aboutus-image{
+  float: right;
+  margin: 10px;
+}
+
+#about{
+  height: 550px;
+}
+
+.membership{
+    color: #b2222b;
+    background-color: #ffffff;
+    font-family: "Lucida Console", monospace;
+    text-align: center
+}
+
+.card1{
+  background-color: #b2222b;
+  color: #ffffff;
+  width: 300px;
+  height: 350px;
+  margin: 70px;
+  text-align: center;
+}
+
+.card1 #join{
+margin:auto;
+position:absolute;
+transform: translate(-65%, 95%);
+-ms-transform: translate(-50%, -50%);
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+font-size: 16px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.card2{
+background-color: #b2222b;
+color: #ffffff;
+width: 300px;
+height: 350px;
+margin: 70px;
+text-align: center;
+}
+
+.card2 #join{
+margin:auto;
+position:absolute;
+transform: translate(-65%, 95%);
+-ms-transform: translate(-50%, -50%);
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+font-size: 16px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}  
+
+.card3{
+background-color: #b2222b;
+color: #ffffff;
+width: 300px;
+height: 350px;
+margin: 70px;
+text-align: center;
+}
+
+.card3 #join{
+margin:auto;
+position:absolute;
+transform: translate(-65%, 95%);
+-ms-transform: translate(-50%, -50%);
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+font-size: 16px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.contact{
+  color: #ffffff;
+  background-color: #b2222b;
+  font-family: "Lucida Console", monospace;
+}
+
+.contact .contact-heading{
+  text-align: center;
+}
+
+.contact .contact-info{
+  text-align: left;
+  transform: translate(20%, 30%);
+}
+
+.contact .map{
+  text-align: right;
+  margin: 200px;
+  transform: translateY(-80%);
+}
